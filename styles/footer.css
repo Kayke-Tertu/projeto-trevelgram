@@ -1,11 +1,34 @@
 footer{
     display: flex;
     padding-block: 24px;
-    gap:24px;
     font: 14px/1.5 var(--font-family);
 }
 
-footer span:nth-child(1){
+footer .teste span{
+    padding-inline: 1rem;
+}
+
+footer div:nth-child(1){
     margin-right:auto;
+}
+
+@media (width <= 23.438em){
+
+
+    footer{
+        display: grid;
+        gap: 1rem;
+
+        & .teste{
+            font-size: .80rem;
+            font-weight:500;
+            color: var(--text-color-secondary);
+        }
+    }
+
+    footer .top{
+        margin-inline: auto;
+    }
+
 }
 

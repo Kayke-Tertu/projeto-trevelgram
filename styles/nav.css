@@ -2,11 +2,12 @@ nav{
  display: flex; /*para que um elemento ffique do lado do outro*/   
  justify-content: space-between; /*adiciona espaço entre os elementos*/
  align-items: center;
-
  line-height: 0;
  padding-block: 20px;
 
 }
+
+
 
 nav ul {
     list-style: none; /*tira os ponto da lista*/
